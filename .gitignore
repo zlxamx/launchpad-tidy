@@ -1,0 +1,18 @@
+.build/
+dist/
+.DS_Store
+.swiftpm/
+
+# Local credentials and Launchpad data
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.pending
+PendingDraft.json
+StaleDraft-*.json
+*.xcuserstate
+xcuserdata/
